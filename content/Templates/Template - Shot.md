@@ -1,4 +1,4 @@
----
+﻿---
 fecha: <% tp.date.now("YYYY-MM-DD") %>
 hora: <% tp.date.now("HH:mm") %>
 cafe: "[[]]"
@@ -23,3 +23,4 @@ tags:
 <%* await tp.file.move("Espresso/Shots/" + tp.date.now("YYYY-MM-DD-HHmm") + " - Shot") %>
 
 ### Observaciones
+

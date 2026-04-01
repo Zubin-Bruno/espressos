@@ -1,4 +1,4 @@
-### Shots por Perfil de Café
+﻿### Shots por Perfil de Café
 
 ```dataview
 TABLE WITHOUT ID
@@ -12,3 +12,4 @@ FROM "Espresso/Shots"
 WHERE cafe.perfil = "frutal"
 SORT score_general DESC
 ```
+

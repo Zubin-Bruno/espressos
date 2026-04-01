@@ -1,4 +1,4 @@
-
+﻿
 ```dataview
 TABLE 
     ("<progress value='" + score_acidez + "' max='5'></progress>") AS Acidez,
@@ -39,3 +39,4 @@ FROM #espresso
 GROUP BY cafe.tostador AS Tostador
 SORT length(rows) DESC
 ```
+

@@ -1,4 +1,4 @@
-# Guía de Referencia
+﻿# Guía de Referencia
 
 ## Escalas de evaluación
 
@@ -99,3 +99,4 @@ Cada 2–3 meses, o cuando sientas que tu paladar cambió:
 4. Compará los scores con los históricos del mismo café y receta.
 5. Si hay diferencia >2 puntos en score general (o >1 en scores 1–5), tu escala se movió.
 6. No corrijas datos viejos.
+

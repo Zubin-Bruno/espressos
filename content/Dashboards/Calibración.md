@@ -1,4 +1,4 @@
-# Calibración de Paladar
+﻿# Calibración de Paladar
 
 > Si el mismo café con la misma receta recibe scores muy distintos entre calibraciones, tu escala se movió. No corrijas datos viejos — usá esta info para interpretar comparaciones entre períodos.
 
@@ -15,3 +15,4 @@ FROM "Espresso/Shots"
 WHERE calibracion = true
 SORT fecha DESC
 ```
+

@@ -1,4 +1,4 @@
-# Consistencia Técnica
+﻿# Consistencia Técnica
 
 ```dataview
 TABLE WITHOUT ID
@@ -13,3 +13,4 @@ FLATTEN round(gramos_out / tiempo_extraccion_s, 2) AS flow
 WHERE gramos_in != null AND gramos_out != null
 GROUP BY true
 ```
+

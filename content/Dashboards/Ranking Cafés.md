@@ -1,4 +1,4 @@
-# Ranking de Cafés
+﻿# Ranking de Cafés
 
 ```dataview
 TABLE WITHOUT ID
@@ -15,3 +15,4 @@ WHERE cafe != null
 GROUP BY cafe
 SORT average(rows.score) DESC
 ```
+

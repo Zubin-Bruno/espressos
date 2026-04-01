@@ -1,4 +1,4 @@
-# Análisis por Café
+﻿# Análisis por Café
 
 
 
@@ -19,4 +19,5 @@ FROM "Espresso/Shots"
 WHERE cafe = [[Peru Gesha]]
 SORT fecha DESC
 ```
+
 

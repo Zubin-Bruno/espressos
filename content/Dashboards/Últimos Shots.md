@@ -1,4 +1,4 @@
-# Últimos Shots
+﻿# Últimos Shots
 
 ```dataview
 TABLE WITHOUT ID
@@ -15,3 +15,4 @@ WHERE cafe != null
 SORT fecha DESC, hora DESC
 LIMIT 30
 ```
+
