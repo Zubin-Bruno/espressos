@@ -25,6 +25,14 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ContentMeta(),
     Component.TagList(),
     Component.Properties(),
+    Component.ConditionalRender({
+      component: Component.PropertyTable({
+        title: "Registro de Shots",
+        tag: "espresso",
+        columns: ["fecha", "cafe", "score_general", "setting_molino", "gramos_in", "gramos_out", "tiempo_total_s"]
+      }),
+      condition: (page) => page.fileData.slug === "Dashboards/Data",
+    }),
   ],
   left: [
     Component.PageTitle(),
